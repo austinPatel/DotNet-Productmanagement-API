@@ -8,11 +8,13 @@ The API is designed using clean architecture principles, ensuring separation of 
 
 All endpoints are implemented asynchronously to improve performance and support high-concurrency environments.
 
-Create Product	POST /api/products	Adds a new product
-Get All Products	GET /api/products	Returns all products
-Get Product	GET /api/products/{id}	Returns product by id
-Update Product	PUT /api/products/{id}	Updates existing product
-Delete Product	DELETE /api/products/{id}	Deletes product
+Create Product-POST 
+
+1. Adds a new product - /api/products
+2. Get All Products	GET /api/products- Returns all products
+3. Get Product	GET /api/products/{id}	Returns product by id
+4. Update Product	PUT /api/products/{id}	Updates existing product
+5. Delete Product	DELETE /api/products/{id}	Deletes product
 
 Use asynchronous programming (async/await) for all endpoints
 Implement input validation before processing requests
