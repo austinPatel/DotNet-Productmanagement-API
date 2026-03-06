@@ -16,8 +16,8 @@ Endpoints
 4. Update Product<PUT> /api/products/{id}	Updates existing product
 5. Delete Product<DELETE> /api/products/{id}	Deletes product
 
-Use asynchronous programming (async/await) for all endpoints
-Implement input validation before processing requests
-Follow Repository Pattern for database access abstraction
-Implement Service Layer for business logic
-Use Dapper ORM for high-performance data access
+* *Use asynchronous programming (async/await) for all endpoints
+* *Implement input validation before processing requests
+* *Follow Repository Pattern for database access abstraction
+* *Implement Service Layer for business logic
+* *Use Dapper ORM for high-performance data access
